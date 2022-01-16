@@ -1,4 +1,4 @@
-<p align="center"><a href="https://vuejs.org" target="_blank" rel="noopener noreferrer"><img width="100" src="https://i.imgur.com/a2l6z9t.png" alt="Vue logo"></a></p>
+<p align="center"><a href="https://github.com/actualdankcoder/salmon" target="_blank" rel="noopener noreferrer"><img width="1000" src="https://i.imgur.com/otKLIGl.png" alt="Salmon logo"></a></p>
 
 <p align="center">
   <a href="https://github.com/actualdankcoder/salmon" title="Go to GitHub repo"><img src="https://img.shields.io/static/v1?label=actualdankcoder&message=salmon&color=blue&logo=github" alt="actualdankcoder - salmon"></a>
@@ -6,12 +6,9 @@
   <a href="#license"><img src="https://img.shields.io/badge/License-MIT-blue" alt="License"></a>
   <a href="https://github.com/actualdankcoder/salmon/issues"><img src="https://img.shields.io/github/issues/actualdankcoder/salmon" alt="issues - salmon"></a>
   <a href="https://discord.gg/2nRUM6auZM"><img src="https://img.shields.io/discord/932256432760426556?logo=discord"alt="chat on Discord"></a>
+  <br/>
+  Salmon is a music tracking server that connects with different sources to display a presence
 </p>
-
-<h2 align="center">Salmon</h2>
-
-Salmon is a music tracking server that connects with different sources to display a presence
-
 
 ## Installation
 
