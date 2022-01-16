@@ -29,7 +29,7 @@ Launch the built binary "salmon.exe"
 *Ensure that salmon server is running before usage*
 
 - Install the salmon plugin to your favourite music player
-- Head to [http://localhost:8406](https://localhost:8406) to verify if music data is being fetched
+- Head to [http://localhost:8406](http://localhost:8406) to verify if music data is being fetched
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
