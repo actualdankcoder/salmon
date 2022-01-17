@@ -10,19 +10,38 @@
   Salmon is a music tracking server that connects with different sources to display a presence
 </p>
 
+## Dependencies:
++ `git`	- To clone repo (optional).
++ `go`	- Required the compile the binary (Required, Make Dependency).
++ `make`	- Build system (Optional, Make Dependency).
+
 ## Installation
 
+### Windows:
 There are two ways to get salmon, you can either head to [releases](https://github.com/actualdankcoder/salmon/releases) and download the latest binary 
 
 **or**
 
-Install the [go compiler](https://go.dev/dl/) and then run the following in the project directory
+Compile the binary with the following commands:
 
 ```bash
+git clone https://github.com/actualdankcoder/salmon
+cd salmon
 go mod tidy
 go build
 ```
-Launch the built binary "salmon.exe"
+Once the binary is compiled, you can uninstall all dependencies and add salmon.exe to your PATH variable.
+
+## Linux & MacOS:
+Install Go and Make with your package manager and then run the following in the project directory:
+
++ `git clone https://github.com/actualdankcoder/salmon`
++ `cd salmon`
+	+ `make` for a dynamically linked binary.
+	+ `make static` for a statically linked binary.
++ `sudo make install`
+
+Note: If you don't know the difference between dynamic & static linking then just use dynamic linker (`make`)
 
 ## Usage
 
