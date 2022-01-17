@@ -11,9 +11,9 @@
 </p>
 
 ## Dependencies:
-+`git`	- To clone repo (optional).
-+`go`	- Required the compile the binary (Required, Make Dependency).
-+`make`	- Build system (Optional, Make Dependency).
++ `git`	- To clone repo (optional).
++ `go`	- Required the compile the binary (Required, Make Dependency).
++ `make`	- Build system (Optional, Make Dependency).
 
 ## Installation
 
