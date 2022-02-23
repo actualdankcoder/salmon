@@ -12,7 +12,7 @@
 
 ## Dependencies:
 + `git`	- To clone repo (optional).
-+ `go`	- Required the compile the binary (Required, Make Dependency).
++ `go`	- Required to compile the binary (Required, Make Dependency).
 + `make`	- Build system (Optional, Make Dependency).
 
 ## Installation
@@ -54,6 +54,10 @@ Note: If you don't know the difference between dynamic & static linking then jus
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+## Sponsors 
+
+<a href="https://github.com/waycrate/swhkd/"><img src="https://git.sr.ht/~shinyzenith/swhkd/blob/main/docs/assets/swhkd.png" alt=SWHKD width=60%></a>
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
