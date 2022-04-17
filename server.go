@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
 	"github.com/gin-contrib/cors"
+	"github.com/gin-gonic/gin"
 )
 
-func RunServer() {	
+func RunServer() {
 	r := gin.Default()
 	r.Use(cors.Default())
 	r.GET("/", func(c *gin.Context) {
@@ -16,8 +16,8 @@ func RunServer() {
 
 		var resp SalDat
 		c.BindJSON(&resp)
-		data:=WriteJSON(resp)
+		data := WriteJSON(resp)
 		c.IndentedJSON(200, data)
 	})
-	r.Run(":8406") // listen and serve on 0.0.0.0:8080 (for windows "localhost:8080")
+	r.Run("localhost:8406") // listen and serve on localhost:8406
 }
