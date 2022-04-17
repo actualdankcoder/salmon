@@ -3,7 +3,6 @@ package main
 import (
 	"encoding/json"
 	"errors"
-	"io/ioutil"
 	"log"
 	"os"
 )
@@ -17,16 +16,16 @@ func LoadJSON() SalDat {
 		if err != nil {
 			panic(err)
 		}
-		ioutil.WriteFile("data.json", rJS, 0644)
+		os.WriteFile("data.json", rJS, 0644)
 
-	} else if err!=nil {
+	} else if err != nil {
 
 		log.Fatalf("Unknown Error: %s", err)
 
 	}
 
 	// Read JSON
-	file, err1 := ioutil.ReadFile("data.json")
+	file, err1 := os.ReadFile("data.json")
 	if err1 != nil {
 		log.Fatalf("Read Error: %s", err1)
 	}
@@ -48,7 +47,7 @@ func WriteJSON(data SalDat) SalDat {
 	}
 
 	// Write to File
-	err = ioutil.WriteFile("data.json", respJSON, 0644)
+	err = os.WriteFile("data.json", respJSON, 0644)
 	if err != nil {
 		log.Printf("Write Error: %s", err)
 	}
